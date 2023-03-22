@@ -3,6 +3,8 @@ title: Upload Spreadsheet
 layout: home
 ---
 
+# Upload Spreadsheet
+
 Users can upload their spreadsheet file using the input field on the homepage. At the moment, the tool supports two types of input format:
 1. Excel spreadsheet (.xlsx)
 2. CSV file (.csv)

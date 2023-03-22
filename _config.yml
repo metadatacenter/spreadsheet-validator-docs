@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Metadata Spreadsheet Validator Documentation
+description: The user manual and API reference of the Metadata Spreadsheet Validator app
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://metadatacenter.github.io/metadata-spreadsheet-validator
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/metadatacenter/spreadsheet-validator-docs

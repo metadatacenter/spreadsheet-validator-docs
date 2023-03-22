@@ -5,7 +5,7 @@ layout: page
 
 # Repair Missing Values
 
-When a cell is left empty in the spreadsheet and it is under a column where having a value is mandatory then this type of mistake leads to the "missing value" error. This error is under the broader completeness error category. Repairing this type of mistake requires users to fill out manually the empty cell.
+When a cell is left empty in the spreadsheet and it is under a column where having a value is mandatory then this mistake leads to the "missing value" error. This error is under a broader completeness error category recognized by the tool's algorithm. Repairing this type of mistake requires users to fill out manually the empty cell.
 
 Selecting one of the column names on the "App Bar" will direct you to the worksheet page where you can perform the fix.
 

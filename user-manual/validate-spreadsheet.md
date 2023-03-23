@@ -1,6 +1,8 @@
 ---
 title: Validate Spreadsheet
-layout: home
+layout: page
+nav_order: 2
+parent: User Manual
 ---
 
 # Validate Spreadsheet

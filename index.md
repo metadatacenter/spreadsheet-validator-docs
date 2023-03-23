@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 0
 ---
 
 Everything you need to know about Metadata Spreadsheet Validator Tool.

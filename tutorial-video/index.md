@@ -1,6 +1,7 @@
 ---
 title: Tutorial Videos
 layout: page
+nav_order: 2
 ---
 
 # Tutorial Videos

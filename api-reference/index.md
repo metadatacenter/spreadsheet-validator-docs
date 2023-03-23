@@ -16,6 +16,75 @@ To validate a spreadsheet, you create a list of `MetadataRecord` object which re
 POST /service/validate
 ```
 
+<details>
+  <summary>Example cURL:</summary>
+  <pre><code>curl --request POST \
+  --url https://api.metadatavalidator.metadatacenter.org/service/validate \
+  --header 'Content-Type: application/json' \
+  --data '{
+    "spreadsheetData": [
+      {
+        "sample_id": "Visium_9OLC_I4_S2",
+        "source_storage_time_value": 208,
+        "source_storage_time_unit": "day",
+        "preparation_medium": "Methanol (100%)",
+        "preparation_condition": "Ice",
+        "processing_time_value": 4,
+        "processing_time_unit": "minute",
+        "storage_medium": "OCT embedded",
+        "storage_condition": "-80 celsius freezer",
+        "quality_criteria": "",
+        "histological_report": "",
+        "thickness_value": 10,
+        "thickness_unit": "millimeter",
+        "section_index_number": 3,
+        "area_value": 15.84,
+        "area_unit": "square millimeter",
+        "notes": ""
+      },
+      {
+        "sample_id": "",
+        "source_storage_time_value": "86 days",
+        "source_storage_time_unit": "days",
+        "preparation_medium": "Formalin",
+        "preparation_condition": "",
+        "processing_time_value": "10 minutes",
+        "processing_time_unit": "minutes",
+        "storage_medium": "Paraffin embedded",
+        "storage_condition": "Liquid nitrogen",
+        "quality_criteria": "",
+        "histological_report": 12.05,
+        "thickness_value": 10,
+        "thickness_unit": "mm",
+        "section_index_number": 1,
+        "area_value": 12.05,
+        "area_unit": "mm^2",
+        "notes": ""
+      },
+      {
+        "sample_id": "",
+        "source_storage_time_value": "86 days",
+        "source_storage_time_unit": "days",
+        "preparation_medium": "Formalin",
+        "preparation_condition": "",
+        "processing_time_value": "10 minutes",
+        "processing_time_unit": "minutes",
+        "storage_medium": "Paraffin embedded",
+        "storage_condition": "Liquid nitrogen",
+        "quality_criteria": "",
+        "histological_report": 15.84,
+        "thickness_value": 10,
+        "thickness_unit": "mm",
+        "section_index_number": 2,
+        "area_value": 15.84,
+        "area_unit": "mm^2",
+        "notes": ""
+      }
+    ],
+    "cedarTemplateIri": "https://repo.metadatacenter.org/templates/a9efb30e-4e2c-4d66-8890-b66204a4a774"
+  }'</code></pre>
+</details>
+
 ## Header
 
 This API call expects an input in JSON format, and you need to inform the server that you are sending a JSON-formatted payload. And to do that you must include the `Content-Type: application/json` HTTP header with every call.
@@ -57,72 +126,7 @@ This object represents a row in the spreadsheet.
 | -------------- | ---- | ----------- |
 | `column1`, `column2`, ..., `columnN` | Any | The column value. (Note: the variables `column1`, `column2`, ..., `columnN` shall be replaced by the actual column name in the spreadsheet). |
 
-### Example input object
 
-```
-{
-  "spreadsheetData": [
-    {
-      "sample_id": "Visium_9OLC_I4_S2",
-      "source_storage_time_value": 208,
-      "source_storage_time_unit": "day",
-      "preparation_medium": "Methanol (100%)",
-      "preparation_condition": "Ice",
-      "processing_time_value": 4,
-      "processing_time_unit": "minute",
-      "storage_medium": "OCT embedded",
-      "storage_condition": "-80 celsius freezer",
-      "quality_criteria": "",
-      "histological_report": "",
-      "thickness_value": 10,
-      "thickness_unit": "millimeter",
-      "section_index_number": 3,
-      "area_value": 15.84,
-      "area_unit": "square millimeter",
-      "notes": ""
-    },
-    {
-      "sample_id": "",
-      "source_storage_time_value": "86 days",
-      "source_storage_time_unit": "days",
-      "preparation_medium": "Formalin",
-      "preparation_condition": "",
-      "processing_time_value": "10 minutes",
-      "processing_time_unit": "minutes",
-      "storage_medium": "Paraffin embedded",
-      "storage_condition": "Liquid nitrogen",
-      "quality_criteria": "",
-      "histological_report": 12.05,
-      "thickness_value": 10,
-      "thickness_unit": "mm",
-      "section_index_number": 1,
-      "area_value": 12.05,
-      "area_unit": "mm^2",
-      "notes": ""
-    },
-    {
-      "sample_id": "",
-      "source_storage_time_value": "86 days",
-      "source_storage_time_unit": "days",
-      "preparation_medium": "Formalin",
-      "preparation_condition": "",
-      "processing_time_value": "10 minutes",
-      "processing_time_unit": "minutes",
-      "storage_medium": "Paraffin embedded",
-      "storage_condition": "Liquid nitrogen",
-      "quality_criteria": "",
-      "histological_report": 15.84,
-      "thickness_value": 10,
-      "thickness_unit": "mm",
-      "section_index_number": 2,
-      "area_value": 15.84,
-      "area_unit": "mm^2",
-      "notes": ""
-    }
-  ],
-  "cedarTemplateIri": "https://repo.metadatacenter.org/templates/a9efb30e-4e2c-4d66-8890-b66204a4a774"
-}
-```
 
 ## Response Schema
 

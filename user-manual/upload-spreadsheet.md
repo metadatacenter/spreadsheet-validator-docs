@@ -1,6 +1,8 @@
 ---
 title: Upload Spreadsheet
-layout: home
+layout: page
+nav_order: 1
+parent: User Manual
 ---
 
 # Upload Spreadsheet

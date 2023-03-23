@@ -3,6 +3,3 @@ description: The user manual and API reference of the Metadata Spreadsheet Valid
 theme: just-the-docs
 
 url: https://metadatacenter.github.io/metadata-spreadsheet-validator
-
-aux_links:
-  Template Repository: https://github.com/metadatacenter/spreadsheet-validator-docs

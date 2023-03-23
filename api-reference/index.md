@@ -210,9 +210,9 @@ POST /service/validate
 ```
 {
   rowNumber: number,
-  column1: value1,
-  column2: value2,
-  column3: value3,
+  column1: Any,
+  column2: Any,
+  column3: Any,
   ...
 }
 ```
@@ -220,7 +220,7 @@ POST /service/validate
 | Attribute Name | Type | Description |
 | -------------- | ---- | ----------- |
 | `rowNumber` | number | The order number of the metadata record in the spreadsheet (start from 0). |
-| `column1`, `column2`, ..., `columnN` | Any | The column value. |
+| `column1`, `column2`, ..., `columnN` | Any | The column value. (Note: the variables `column1`, `column2`, ..., `columnN` shall be replaced by the actual column name in the spreadsheet). |
 
 ### Details on `ErrorReport` type
 

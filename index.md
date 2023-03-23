@@ -10,4 +10,4 @@ Metadata Spreadsheet Validator Tool is a web-based application that allows you t
 
 <img width="1000" alt="Validator Home Page" src="https://user-images.githubusercontent.com/5062950/227295748-44833e7b-a680-4874-8d07-a4ab237e30eb.png">
 
-The tool is accessible through the URL: https://metadatavalidator.metadatacenter.org
+The tool is accessible through the URL: [https://metadatavalidator.metadatacenter.org](https://metadatavalidator.metadatacenter.org)

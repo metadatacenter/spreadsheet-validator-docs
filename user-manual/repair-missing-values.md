@@ -1,6 +1,8 @@
 ---
 title: Repair Missing Values
 layout: page
+nav_order: 3
+parent: User Manual
 ---
 
 # Repair Missing Values

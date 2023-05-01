@@ -4,13 +4,13 @@ layout: home
 nav_order: 1
 ---
 
-Here are some information that should help you understand the basic usage of the RESTful API, including info about making requests, reading responses, and potential errors.
+Here is some information to help you understand the basic functions of the RESTful API, including making requests, reading responses, and potential errors.
 
 Base URL: `https://api.metadatavalidator.metadatacenter.org/`
 
 # Validate Spreadsheet
 
-To validate a spreadsheet, you create a list of `MetadataRecord` object which represents each row in the spreadsheet, and a link to a CEDAR template by adding the template IRI that you can get from browsing CEDAR template repository.
+To validate a spreadsheet, you create a list of `MetadataRecord` objects which represents each row in the spreadsheet, and a link to a CEDAR template by adding the template IRI that you can get from browsing the CEDAR template repository.
 
 ```
 POST /service/validate
@@ -87,7 +87,7 @@ POST /service/validate
 
 ## Header
 
-This API call expects an input in JSON format, and you need to inform the server that you are sending a JSON-formatted payload. And to do that you must include the `Content-Type: application/json` HTTP header with every call.
+This API call expects an input in JSON format, and you need to inform the server that you are sending a JSON-formatted payload. To do that you must include the `Content-Type: application/json` HTTP header with every call.
 
 | Variable Name | Value | When to send it |
 | ------------- | ----- | --------------- |
@@ -124,7 +124,7 @@ This object represents a row in the spreadsheet.
 
 | Attribute Name | Type | Description |
 | -------------- | ---- | ----------- |
-| `column1`, `column2`, ..., `columnN` | Any | The column value. (Note: the variables `column1`, `column2`, ..., `columnN` shall be replaced by the actual column name in the spreadsheet). |
+| `column1`, `column2`, ..., `columnN` | Any | The column value. (Note: the variables `column1`, `column2`, ..., `columnN` shall be replaced by the actual column names in the spreadsheet). |
 
 
 
@@ -163,7 +163,7 @@ This object represents the overview of the metadata specification schema.
 | -------------- | ---- | ----------- |
 | `name` | string | The name of the metadata specification (i.e., CEDAR template name). |
 | `columnDescription` | `ColumnDescription` | The column description as mentioned in the metadata specification. |
-| `columnOrder` | [ string ] | The column order as appear in the metadata specification. |
+| `columnOrder` | [ string ] | The column order as it appears in the metadata specification. |
 | `generatedFrom` | string | The CEDAR template IRI which links to the metadata specification. |
 
 ### Details on `ColumnDescription` type
@@ -181,7 +181,7 @@ This object represents a collection of column definitions that the server has ex
 
 | Attribute Name | Type | Description |
 | -------------- | ---- | ----------- |
-| `column1`, `column2`, ..., `columnN` | `ColumnSchema` | The column specification. (Note: the variables `column1`, `column2`, ..., `columnN` shall be replaced by the actual column name in the spreadsheet). |
+| `column1`, `column2`, ..., `columnN` | `ColumnSchema` | The column specification. (Note: the variables `column1`, `column2`, ..., `columnN` shall be replaced by the actual column names in the spreadsheet). |
 
 ### Details on `ColumnSchema` type
 
@@ -246,7 +246,7 @@ This object represents a row in the spreadsheet but with an extra `rowNumber` at
 | Attribute Name | Type | Description |
 | -------------- | ---- | ----------- |
 | `rowNumber` | number | The order number of the metadata record in the spreadsheet (start from 0). |
-| `column1`, `column2`, ..., `columnN` | Any | The column value. (Note: the variables `column1`, `column2`, ..., `columnN` shall be replaced by the actual column name in the spreadsheet). |
+| `column1`, `column2`, ..., `columnN` | Any | The column value. (Note: the variables `column1`, `column2`, ..., `columnN` shall be replaced by the actual column names in the spreadsheet). |
 
 ### Details on `ErrorReport` type
 

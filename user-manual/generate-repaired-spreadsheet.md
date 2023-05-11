@@ -7,6 +7,6 @@ parent: User Manual
 
 # Generate Repaired Spreadsheet
 
-When a user has repaired all the errors in a spreadsheet and saved the changes, then an action button displays at the bottom of the page. Clicking the "Generate Repaired Spreadsheet" button will produce an Excel spreadsheet and a CSV file.
+The button to generate the repaired spreadsheet is located at the bottom right corner and two options are available, "Save to Excel" or "Save to CSV" to choose.
 
-<img width="1000" alt="Generate repaired spreadsheet button" src="https://user-images.githubusercontent.com/5062950/227067978-3b5f94b1-8813-4757-a08d-64fa912185d9.png">
+<img width="1000" alt="Generate repaired spreadsheet button" src="https://github.com/metadatacenter/spreadsheet-validator-docs/assets/5062950/ffd7b030-426a-4816-93de-d9048c6be41e">

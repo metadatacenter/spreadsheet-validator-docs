@@ -9,7 +9,7 @@ parent: User Manual
 
 Users can upload their spreadsheet file using the input field on the homepage. Currently, the tool supports two types of input format:
 1. Excel spreadsheet (.xlsx)
-2. CSV file (.csv)
+2. TSV file (.tsv)
 
 ## Metadata information
 
@@ -28,10 +28,10 @@ Both input formats require metadata information that provides context for the to
 
 ![Screen Shot 2023-04-24 at 4 40 18 PM](https://user-images.githubusercontent.com/5062950/234138426-d0765efa-829b-491f-ad78-413914f9a818.png)
 
-* For CSV file format, create a new file called `metadata`, create a table with the metadata information and place it in a same directory as the CSV file. You will need to pack them together in a zip file.
+* For TSV file format, add a column called `metadata_schema_id` and include the metadata schema UUID identifier. You can find the identifier in the metadata schema documentation (see screenshot below).
 
-  ![Screen Shot 2023-03-22 at 1 56 20 PM](https://user-images.githubusercontent.com/5062950/227036180-7106e97b-7ee0-4ee7-bc7d-1f2849087cf7.png)
-  
-## Uploading the file
+<img width="900" alt="Screen Shot 2023-07-11 at 4 32 15 PM" src="https://github.com/metadatacenter/spreadsheet-validator-docs/assets/5062950/7fe93431-652f-4c39-9444-ca8cbfc99f0c">
+
+## Uploading the file to validate
 
 You can either drag-and-drop the file from your local computer to the input field or use the "Browse" option to select the file from your file system.

@@ -14,7 +14,8 @@ Once you have uploaded the input file, click "Start Validating" to begin the val
 
 The Validation Dashboard displays an overall validation summary and information about the number and types of validation errors that the tool's algorithm detected in your spreadsheet.
 
-<img width="1000" alt="Validation Dashboard" src="https://user-images.githubusercontent.com/5062950/227042964-a4f6ee33-fd3c-4ca4-b634-a7be2592a5c0.png">
+<img width="1560" alt="Validation Dashboard" src="https://github.com/metadatacenter/spreadsheet-validator-docs/assets/5062950/b35dd25d-a4c4-47d6-b306-8c998c97e1d9">
+
 
 Arrow (A) points to the app bar which shows 3 options:
 1. *Overview* links to the dashboard page itself.

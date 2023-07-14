@@ -4,6 +4,8 @@ layout: home
 nav_order: 0
 ---
 
+UI Version: 1.2.2
+
 Everything you need to know about the Metadata Spreadsheet Validator Tool.
 
 The Metadata Spreadsheet Validator Tool is a web-based application that allows you to validate your metadata records in an Excel spreadsheet against their specification stored in the [CEDAR](https://cedar.metadatacenter.org/) repository. The tool will categorize any errors and give you a hint on how fix those errors.

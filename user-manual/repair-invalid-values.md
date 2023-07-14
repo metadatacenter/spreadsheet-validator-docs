@@ -21,7 +21,8 @@ Selecting one of the error type options on the "App Bar" takes you to the worksh
 
 The repair worksheet includes the following key features:
 
-<img width="1560" alt="Repair Adherence Error Worksheet" src="https://user-images.githubusercontent.com/5062950/227059545-ca99808d-0ced-43ff-8053-42424091bbe0.png">
+<img width="1560" alt="Repair Adherence Error Worksheet" src="https://github.com/metadatacenter/spreadsheet-validator-docs/assets/5062950/1bc658ae-142a-4fb0-a4cc-b980bec01fba">
+
 
 - (A) "Original Value" = Displays the original value of a particular column in the spreadsheet. Next to the value string, in parentheses, is the number of cells that contain the same string.
 - (B) "New Value Field" = Enter the correct value in this field to replace the original value. This field usually contains a value that was entered automatically by the tool as part of its recommendation feature.

@@ -18,7 +18,7 @@ Selecting one of the error options on the "App Bar" will direct you to the works
 
 The repair worksheet includes the following key features:
 
-<img width="1000" alt="Repair Completeness Error Worksheet" src="https://user-images.githubusercontent.com/5062950/227056533-f2a1673d-5a88-4c39-ab7d-ef8986abc324.png">
+<img width="1560" alt="Repair Completeness Error Worksheet" src="https://github.com/metadatacenter/spreadsheet-validator-docs/assets/5062950/355c0971-f7e5-49c0-a55f-a2b49283ac3d">
 
 
 - (A) "Repair Field" = Enter the correct value in this field. If the value comes from a list of permissible values then a drop-down menu will replace the standard input text field.

@@ -4,7 +4,7 @@ layout: home
 nav_order: 0
 ---
 
-UI Version: 1.2.2
+UI Version: 1.3.2
 
 Everything you need to know about the Metadata Spreadsheet Validator Tool.
 

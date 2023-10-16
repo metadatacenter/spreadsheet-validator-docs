@@ -6,7 +6,7 @@ nav_order: 2
 
 # Tutorial Videos
 
-The following sections show you a short demo clip on using the tool to repair a sample metadata spreadsheet. You can download the [demo file](https://drive.google.com/drive/folders/1kJAvgbEmmep3UKA9KFGg3915_FnMk8vg?usp=sharing) used in the videos and have your own hands-on session.
+The following sections show you a short demo clip on using the tool to repair a sample metadata spreadsheet. Please note, you may notice some differences on the application user interface (UI) because the videos were made on using the validator's earlier version.
 
 | Video (Click the Image) | Title| Description |
 | ---------- | ----- | ------ |

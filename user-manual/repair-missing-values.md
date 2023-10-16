@@ -9,16 +9,17 @@ parent: User Manual
 
 An empty spreadsheet cell where a value is required produces a "missing value" error. This error falls under a broader category of completeness errors recognized by the tool's algorithm. Repairing this type of error requires you to manually fill in the empty cell.
 
-Selecting one of the error options on the "App Bar" will direct you to the worksheet page where you can perform the needed fix.
+Selecting one of the error options on the navigation bar will direct you to the worksheet page where you can perform the needed fix.
 
-<img width="500" alt="Repair Completeness Error Menu" src="https://user-images.githubusercontent.com/5062950/227056492-afb67a11-3aab-4e42-933a-2e1ef98a0e7d.png">
+<img width="500" alt="repair-completeness-errors-menu" src="https://github.com/metadatacenter/spreadsheet-validator-docs/assets/5062950/3ea278a1-5c7c-4b7e-a58d-04e0f0ee0737">
+
 
 
 ## Repair Worksheet
 
 The repair worksheet includes the following key features:
 
-<img width="1560" alt="Repair Completeness Error Worksheet" src="https://github.com/metadatacenter/spreadsheet-validator-docs/assets/5062950/355c0971-f7e5-49c0-a55f-a2b49283ac3d">
+<img width="1542" alt="repair-completeness-errors-worksheet" src="https://github.com/metadatacenter/spreadsheet-validator-docs/assets/5062950/517567c6-ff78-4276-a6d0-ffc188918cdb">
 
 
 - (A) "Repair Field" = Enter the correct value in this field. If the value comes from a list of permissible values then a drop-down menu will replace the standard input text field.

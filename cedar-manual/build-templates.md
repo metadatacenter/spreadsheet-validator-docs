@@ -7,7 +7,7 @@ parent: CEDAR Manual
 
 # Building CEDAR Templates for Community Standards
 
-This guide provides a step-by-step process for building metadata templates that adhere to community standards using the CEDAR platform.
+This guide provides a step-by-step process for building metadata templates that adhere to community standards using the [CEDAR platform](https://cedar.metadatacenter.org/).
 
 ## Workflow Overview
 
@@ -26,39 +26,47 @@ This guide provides a step-by-step process for building metadata templates that 
   - Text documents (.doc, .pdf)
   - Existing metadata schemas
 
-  These documents outline the required metadata fields according to the established community standards.
+  These documents outline the required metadata fields according to the established community standards. Figure 1 below shows a typical metadata specification document, structured in a spreadsheet format.
+
+  <img width="1000" alt="Typical metadata schema document" src="https://github.com/user-attachments/assets/a1553a2f-5d2b-4d80-9a5d-cd353ecc5f36" />
 
 ## 2. Planning Phase
 
 Before building templates, plan your approach:
 
-* Review the [best practices](best-practices.md) for naming the fields and other best practices.
-* Identify the common data fields that will be reused across templates.
-* [Begin by building the common data fields](build-common-fields.md) first.
-* Construct the template using these common data fields as the foundation.
-
-Think of common data fields as reusable building blocks--like Lego pieces that can be assembled into different structures.
+* Identify the data fields that will be reused across templates, if you're building more than one.
+* Review the [best practices](best-practices.md) for naming the fields and other tips.
+* [Begin by building the common data field library](build-common-fields.md) first. 
+* Construct the template using the data field library as the foundation.
+  
+Think of data fields as reusable building blocks--like Lego pieces that can be assembled into different structures.
 
 ## 3. Building the Template
 
 ### Steps to Create a New Template
 
-1. Select "New > Template" to create a new template.
+Login to your CEDAR account first before following these steps below:
+
+1. Select the "New > Template" button in the top-left corner to create a new template.
 2. Replace "Untitled" with the desired template name.
-3. Move the mouse pointer to the right-hand side and click the search magnifier icon (see Fig 1).
-4. In the search dialog window, navigate to the common data field folder containing the fields you created earlier (see Fig 2).
-5. Select the required fields for the metadata template.
-6. Click the "Select" button to close the window.
+3. In the "Field Type Selector" bar on the right, click the magnifier icon at the bottom to open the field search dialog.
+4. Browse the directory structure to find the common data field folder that contains the fields you previously created. Figure 2 below illustrates an example of HuBMAP common data fields. <img width="700" alt="Common data field folder" style="float:left; margin:10px;" src="https://github.com/user-attachments/assets/cde3abe6-e260-4fa9-a397-aa0ab01a5473" />
+6. Accumulate the required fields for the metadata template by clicking the plus icon, then and click the "Select" button to finish.
 
 ### Customization Options
+
+On the Template Designer editor page, you can customize the selected fields, including updating the field descriptions to align with the template's context. Below are two common customizations you may encounter.
 
 * **Requirement Level**: 
   - On the field panel, click the "REQUIRED" tab.
   - Select "YES" to make the field required, or "NO" to make it optional (default is "NO").
+    <img width="700" alt="Modify the requirement level" src="https://github.com/user-attachments/assets/aa7ffaa2-36fa-4816-adee-613b531b654d" />
 
 * **Default Value**: 
   - On the field panel, click the "OPTIONS" tab.
   - Enter the default value in the "Enter Default Value" field.
+    <img width="700" alt="Modify the default value" src="https://github.com/user-attachments/assets/8ca6f8cc-e05f-41d8-ab56-14e935f435f0" />
+
 
 ## 4. Version Management 
 

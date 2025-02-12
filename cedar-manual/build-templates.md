@@ -57,12 +57,12 @@ Login to your CEDAR account first before following these steps below:
 
 On the Template Designer editor page, you can customize the selected fields, including updating the field descriptions to align with the template's context. Below are two common customizations you may encounter.
 
-* **Requirement Level**: 
+* **Set Requirement Level**: 
   - On the field panel, click the "REQUIRED" tab.
   - Select "YES" to make the field required, or "NO" to make it optional (default is "NO").
     <img width="700" alt="Modify the requirement level" src="https://github.com/user-attachments/assets/aa7ffaa2-36fa-4816-adee-613b531b654d" />
 
-* **Default Value**: 
+* **Add Default Value**: 
   - On the field panel, click the "OPTIONS" tab.
   - Enter the default value in the "Enter Default Value" field.
     <img width="700" alt="Modify the default value" src="https://github.com/user-attachments/assets/8ca6f8cc-e05f-41d8-ab56-14e935f435f0" />
@@ -74,7 +74,8 @@ On the Template Designer editor page, you can customize the selected fields, inc
 
 * A newly created CEDAR template always starts with version 0.0.1. To set a version to your template, go to the Workspace View and open the Resource Menu by clicking the vertical dots (the 'kebab menu', ⋮) on the right-hand side of the template.
 
-* Select "Publish Version" and set the version number. 
+* Select "Publish Version" and set the version number.
+  <img width="800" alt="Publish version" src="https://github.com/user-attachments/assets/4fcd5902-a9da-444d-a02f-cc3b07778371" />
 
 Each version of a CEDAR template is assigned a unique UUID and a distinct URL is generated for accessing each one of them.
 
@@ -86,8 +87,12 @@ To increase the visibility of your template, follow these steps:
 
 1. Open the Resource Menu and select "Share".
 2. In the "Enter group name" field, type the keyword "Everybody" and set the permission to "can read".
-3. Next, select "Enable Open View" from the Resource Menu.
-4. To share the template, select "Visit Open View" and copy the URL provided.
+   <img width="680" alt="Share permission" src="https://github.com/user-attachments/assets/2ff9af1e-1f48-4f1b-91bb-fd4b91fefd03" />
+ 
+4. Next, select "Enable Open View" from the Resource Menu.
+   <img width="800" alt="Share permission" src="https://github.com/user-attachments/assets/dc88a8a7-da95-4d09-870e-d0120a5a6a3d" />
+
+5. To share the template, select "Visit Open View" and copy the URL provided.
 
 By enabling these features, your template will be accessible to a broader audience.
 

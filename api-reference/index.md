@@ -1,7 +1,7 @@
 ---
 title: API Reference
 layout: home
-nav_order: 3
+nav_order: 4
 ---
 
 Here is some information to help you understand the basic functions of the RESTful API, including making requests, reading responses, and potential errors.

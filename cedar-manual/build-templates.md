@@ -98,6 +98,6 @@ By enabling these features, your template will be accessible to a broader audien
 
 ## Related Topics
 
-- Review the [field library guide](create-field-library.md)
-- Learn about [naming conventions](best-practices.md)
-- See examples of completed templates
+- Review the [field library guide](create-field-library.md).
+- Learn about [naming conventions](best-practices.md).
+- See [examples of completed templates](https://github.com/hubmapconsortium/dataset-metadata-spreadsheet).

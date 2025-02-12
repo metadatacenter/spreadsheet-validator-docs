@@ -41,3 +41,9 @@ Follow these best practices when building fields and templates in CEDAR:
 
 8. **Using Value Set vs. Multiple Choice**
    - Decide between value sets and multiple choice based on whether the values are shareable concepts. Use Multiple Choice for non-shareable values, such as a collection of input parameters.
+
+## Related Topics
+
+- Return to [building CEDAR templates page](build-templates.md).
+- Review the [field library guide](create-field-library.md).
+- See [examples of completed templates](https://github.com/hubmapconsortium/dataset-metadata-spreadsheet).

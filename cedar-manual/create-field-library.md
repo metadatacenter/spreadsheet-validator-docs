@@ -49,10 +49,8 @@ Often times, you need to create a field with controlled terms to guide and restr
 
    <img width="700" alt="Controlled terms sourced from ontology branches" src="https://github.com/user-attachments/assets/92244ddc-bc97-448d-8043-9468b377cbd9" />
 
+## Related Topics
 
-
-
-
-
-
-
+- Return to [building CEDAR templates page](build-templates.md).
+- Learn about [naming conventions](best-practices.md).
+- See [examples of completed templates](https://github.com/hubmapconsortium/dataset-metadata-spreadsheet).

@@ -15,7 +15,8 @@ Follow these best practices when building fields and templates in CEDAR:
 
 2. **Creating Descriptions**
    - Provide clear and concise descriptions for each field.
-   - *(Optional)* Include an example value after the description. For instance, for "Parent dataset ID": "Unique identifier of the dataset used to generate this derived dataset. Example: HNDF-123-HH".
+   - *(Recommended)* Enhance clarity by including an example value after the description. For example, the "Parent Dataset ID" field description could be:
+`Unique identifier of the dataset used to generate this derived dataset. Example: HNDF-123-HH.`.
 
 3. **Naming Boolean Fields**
    - Use a question format for boolean fields (e.g., `is_antibody`, `is_cell_type_annotation_included`) to indicate a "Yes" or "No" response.

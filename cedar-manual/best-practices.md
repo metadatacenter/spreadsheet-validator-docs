@@ -18,8 +18,9 @@ Follow these best practices when building fields and templates in CEDAR:
 
 3. **Creating Descriptions**
    - Provide clear and concise descriptions for each field.
-   - *(Recommended)* Enhance clarity by including an example value after the description. For example, the "Parent Dataset ID" field description could be:
+   - Include an example value after the description. For example, the "Parent Dataset ID" field description could be:
 `Unique identifier of the dataset used to generate this derived dataset. Example: HNDF-123-HH.`.
+   - Use ChatGPT or other LLM tools to improve the text quality when writing the description.
 
 4. **Naming Boolean Fields**
 

@@ -29,7 +29,7 @@ This guide provides a step-by-step process for building metadata templates that 
 
   These documents outline the required metadata fields according to the established community standards. Figure 1 below shows a typical metadata specification document, structured in a spreadsheet format.
 
-  <img width="1000" alt="Typical metadata schema document" src="https://github.com/user-attachments/assets/a1553a2f-5d2b-4d80-9a5d-cd353ecc5f36" />
+  <img width="1000" alt="Typical metadata schema document" src="../img/metadata-schema-document.png" />
 
 ## 2. Planning Phase
 

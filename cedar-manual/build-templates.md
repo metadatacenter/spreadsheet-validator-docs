@@ -99,13 +99,15 @@ By enabling these features, your template will be accessible to a broader audien
 
 ## 6. Disemminate the Template
 
-### Embeddable
-
-### Excel Spreadsheet (Under construction)
+### As an Excel Spreadsheet (Under construction)
 
 Another way to distribute CEDAR templates is through spreadsheets. However, this method is only feasible if the template has a simple, flat structure without nested elements. Spreadsheets offer several advantages: first, they are widely used, and their user-friendly interface makes data entry intuitive; second, they are highly versatile, allowing easy copying and distribution; third, they support bulk editing, making them ideal for adding large metadata records efficiently.
 
 To convert a CEDAR template into an Excel spreadsheet, use the "Download Excel" option in the menu. If this option is unavailable, it means your template does not meet the criteria of having a simple, flat structure. You may need to restructure the template to enable this functionality. Once selected, the action will immediately generate an Excel file that is automatically downloaded.
+
+### As a Shareable Web Form
+
+Follow [this link](enable-web-form.md) to learn how to share CEDAR templates as Web forms.
 
 ## Related Topics
 

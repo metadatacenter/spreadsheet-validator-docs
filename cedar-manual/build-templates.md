@@ -1,11 +1,11 @@
 ---
-title: Building CEDAR Templates for Community Standards
+title: Start Here
 layout: page
 nav_order: 1
 parent: CEDAR Manual
 ---
 
-# Building CEDAR Templates for Community Standards
+# Start Here
 
 This guide provides a step-by-step process for building metadata templates that adhere to community standards using the [CEDAR platform](https://cedar.metadatacenter.org/).
 

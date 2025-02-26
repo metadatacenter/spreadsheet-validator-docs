@@ -1,11 +1,11 @@
 ---
-title: Creating Field Library
+title: Create Reusable Fields
 layout: page
 nav_order: 2
 parent: Building CEDAR Templates for Community Standards
 ---
 
-# Creating Field Library
+# Create Reusable Fields
 
 Creating data fields before building the templates offers the advantage of reusability. This approach is particularly useful when you need to create multiple metadata templates and many of the fields are shared. It ensures that data fields are standardized and consistent across different templates.
 

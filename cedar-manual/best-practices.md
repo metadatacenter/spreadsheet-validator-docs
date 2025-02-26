@@ -2,7 +2,7 @@
 title: Best Practices
 layout: page
 nav_order: 4
-parent: CEDAR Manual
+parent: Building CEDAR Templates for Community Standards
 ---
 
 # Best Practices

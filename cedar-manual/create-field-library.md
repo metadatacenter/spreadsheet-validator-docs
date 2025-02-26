@@ -2,7 +2,7 @@
 title: Creating Field Library
 layout: page
 nav_order: 2
-parent: CEDAR Manual
+parent: Building CEDAR Templates for Community Standards
 ---
 
 # Creating Field Library

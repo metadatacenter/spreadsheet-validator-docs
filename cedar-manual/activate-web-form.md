@@ -2,7 +2,7 @@
 title: Activate Web Form
 layout: page
 nav_order: 5
-parent: CEDAR Manual
+parent: Building CEDAR Templates for Community Standards
 ---
 
 # Activate CEDAR Web Forms

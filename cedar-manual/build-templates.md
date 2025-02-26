@@ -2,7 +2,7 @@
 title: Start Here
 layout: page
 nav_order: 1
-parent: CEDAR Manual
+parent: Building CEDAR Templates for Community Standards
 ---
 
 # Start Here

@@ -27,7 +27,7 @@ This guide provides a step-by-step process for building metadata templates that 
   - Text documents (.doc, .pdf)
   - Existing metadata schemas
 
-  These documents outline the required metadata fields according to the established community standards. Figure 1 below shows a typical metadata specification document, structured in a spreadsheet format.
+  These documents outline the required metadata fields according to the established community standards. The figure below illustrates an example of metadata specification document, curated by a community and structured in a spreadsheet format.
 
   <img width="1000" alt="Typical metadata schema document" style="margin:0 0 10px 0;" src="../img/metadata-schema-document.png" />
 

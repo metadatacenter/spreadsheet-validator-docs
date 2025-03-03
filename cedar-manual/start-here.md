@@ -115,6 +115,6 @@ Another way to distribute CEDAR templates is through its native Web form user in
 
 ## Related Topics
 
-- Review the [field library guide](create-field-library.md).
+- Review the guide on [creating reusable fields](create-reusable-fields.md).
 - Learn about [naming conventions](best-practices.md).
 - See [examples of completed templates](https://github.com/hubmapconsortium/dataset-metadata-spreadsheet).

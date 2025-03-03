@@ -52,6 +52,6 @@ Depending on your requirements, there are three options in creating a text field
 
 ## Related Topics
 
-- Return to [building CEDAR templates page](build-templates.md).
+- Return to [building CEDAR templates page](start-here.md).
 - Learn about [naming conventions](best-practices.md).
 - See [examples of completed templates](https://github.com/hubmapconsortium/dataset-metadata-spreadsheet).

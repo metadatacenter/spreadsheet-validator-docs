@@ -1,7 +1,7 @@
 ---
 title: Best Practices
 layout: page
-nav_order: 4
+nav_order: 6
 parent: Building CEDAR Templates for Community Standards
 ---
 
@@ -45,6 +45,5 @@ Follow these best practices when building fields and templates in CEDAR:
 
 ## Related Topics
 
-- Return to [building CEDAR templates page](build-templates.md).
-- Review the [field library guide](create-field-library.md).
-- See [examples of completed templates](https://github.com/hubmapconsortium/dataset-metadata-spreadsheet).
+- Return to [building CEDAR templates page](start-here.md).
+- Review the guide on [creating reusable fields](create-reusable-fields.md).

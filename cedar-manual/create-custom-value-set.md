@@ -118,5 +118,5 @@ The final step is to publish it in [BioPortal](https://bioportal.bioontology.org
 
 ## Related Topics
 
-- Return to [building CEDAR templates page](build-templates.md).
+- Return to [building CEDAR templates page](start-here.md).
 - Review the guide on [creating reusable fields](create-reusable-fields.md).

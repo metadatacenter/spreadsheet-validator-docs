@@ -36,8 +36,8 @@ This guide provides a step-by-step process for building metadata templates that 
 Before building templates, plan your approach:
 
 * Identify the data fields that will be reused across templates, if you're building more than one.
-* Review the [best practices](best-practices.md) for naming the fields and other tips.
-* [Begin by building the common data field library](build-common-fields.md) first. 
+* Review the [best practices](best-practices.html) for naming the fields and other tips.
+* [Begin by building the common data field library](create-reusable-fields.html) first. 
 * Construct the template using the data field library as the foundation.
   
 Think of data fields as reusable building blocks--like Lego pieces that can be assembled into different structures.
@@ -111,10 +111,10 @@ To convert a CEDAR template into an Excel spreadsheet, use the "Download Excel" 
 
 ### As a Shareable Web Form
 
-Another way to distribute CEDAR templates is through its native Web form user interface. Follow [this link](enable-web-form.md) to learn how to share CEDAR templates as Web forms.
+Another way to distribute CEDAR templates is through its native Web form user interface. Follow [this link](publish-web-form.html) to learn how to share CEDAR templates as Web forms.
 
 ## Related Topics
 
-- Review the guide on [creating reusable fields](create-reusable-fields.md).
-- Learn about [naming conventions](best-practices.md).
+- Review the guide on [creating reusable fields](create-reusable-fields.html).
+- Learn about [naming conventions](best-practices.html).
 - See [examples of completed templates](https://github.com/hubmapconsortium/dataset-metadata-spreadsheet).

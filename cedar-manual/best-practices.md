@@ -45,5 +45,5 @@ Follow these best practices when building fields and templates in CEDAR:
 
 ## Related Topics
 
-- Return to [building CEDAR templates page](start-here.md).
-- Review the guide on [creating reusable fields](create-reusable-fields.md).
+- Return to [building CEDAR templates page](start-here.html).
+- Review the guide on [creating reusable fields](create-reusable-fields.html).

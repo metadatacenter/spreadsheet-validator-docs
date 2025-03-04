@@ -114,9 +114,9 @@ If you are working with Google Sheets, select the **"On the web"** option (third
 
 ## Publishing the Value Set
 
-The final step is to publish it in [BioPortal](https://bioportal.bioontology.org/) to make your value set accessible in **CEDAR**. Follow the instructions on [this page](publish-value-set.md) to learn how to upload and publish your value set in BioPortal.
+The final step is to publish it in [BioPortal](https://bioportal.bioontology.org/) to make your value set accessible in **CEDAR**. Follow the instructions on [this page](publish-value-set.html) to learn how to upload and publish your value set in BioPortal.
 
 ## Related Topics
 
-- Return to [building CEDAR templates page](start-here.md).
-- Review the guide on [creating reusable fields](create-reusable-fields.md).
+- Return to [building CEDAR templates page](start-here.html).
+- Review the guide on [creating reusable fields](create-reusable-fields.html).

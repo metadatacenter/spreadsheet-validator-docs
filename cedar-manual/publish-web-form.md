@@ -66,5 +66,5 @@ Before generating a Web form link for metadata collection, it is important to en
 
 ## Related Topics
 
-- Review the guide on [creating reusable fields](create-reusable-fields.md).
-- Learn about the [naming conventions](best-practices.md).
+- Review the guide on [creating reusable fields](create-reusable-fields.html).
+- Learn about the [naming conventions](best-practices.html).

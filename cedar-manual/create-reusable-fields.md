@@ -17,7 +17,7 @@ At CEDAR, creating field library is straightforward. Begin by creating a new fol
 
 1. Select "New > Field" to add a new field to your library folder.
 2. A new text field is created by default. To change the field type, use the field palette on the right. CEDAR currently supports 14 field types, including number, date, image, and video.
-3. Rename the field from "Untitled" to your desired name. Refer to the [naming conventions](best-practices.md) for guidance.
+3. Rename the field from "Untitled" to your desired name. Refer to the [naming conventions](best-practices.html) for guidance.
 4. Next, provide the preferred label and description for the field.
 
 Fields often have value restrictions where only specific entries are allowed as valid inputs. The section below outlines the steps to define these permissible values.
@@ -52,6 +52,6 @@ Depending on your requirements, there are three options in creating a text field
 
 ## Related Topics
 
-- Return to [building CEDAR templates page](start-here.md).
-- Learn about [naming conventions](best-practices.md).
+- Return to [building CEDAR templates page](start-here.html).
+- Learn about [naming conventions](best-practices.html).
 - See [examples of completed templates](https://github.com/hubmapconsortium/dataset-metadata-spreadsheet).

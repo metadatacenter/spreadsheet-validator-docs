@@ -64,4 +64,4 @@ To make your **value set** accessible to **CEDAR**, follow these steps to publis
 
 ## Related Topics
 
-- Return to [building CEDAR templates page](start-here.md).
+- Return to [building CEDAR templates page](start-here.html).

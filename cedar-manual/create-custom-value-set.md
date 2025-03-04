@@ -23,7 +23,7 @@ We will use the **Simple Knowledge Organization System (SKOS)**, a data model fo
 * If you prefer working online, upload the file to **Google Drive** and open it as **Google Sheets**. 
 
 The screenshot below shows the content of the template in Excel format.
-<img width="1000" alt="Typical metadata schema document" style="margin:10px 0 10px 0;" src="../img/custom-value-set-template.png" />
+<img width="1000" alt="Value set template" style="margin:10px 0 10px 0;" src="../img/custom-value-set-template.png" />
 
 ### 2. Define the Table Prefixes
 
@@ -74,7 +74,7 @@ Each **child term** must:
 
 The screenshot below illustrates an example of a well-structured table.
 
-<img width="1000" alt="Typical metadata schema document" style="margin:10px 0 10px 0;" src="../img/custom-value-set-example.png" />
+<img width="1000" alt="Value set example" style="margin:10px 0 10px 0;" src="../img/custom-value-set-example.png" />
 
 In this example, **"Processing time unit"** is a parent term:  
 - **URI**: `vs:HRAVS_1000071`  
@@ -97,7 +97,7 @@ Similarly, **"Preparation medium"** (`vs:HRAVS_1000041`) is another parent term,
 
 To create a SKOS file with the hierarchical structure from your Excel spreadsheet, we will use SKOSPlay, a free online tool available at: https://skos-play.sparna.fr/play/convert.
 
-<img width="1000" alt="Typical metadata schema document" style="margin:10px 0 0 0;" src="../img/skosplay-interface.png" />
+<img width="1000" alt="SKOSPlay interface" style="margin:10px 0 0 0;" src="../img/skosplay-interface.png" />
 
 ### Steps to convert your Excel file:
 * In the **"Convert"** page, select the second option **"In a local file on my computer"**.

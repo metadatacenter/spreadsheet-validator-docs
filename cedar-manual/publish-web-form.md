@@ -1,11 +1,11 @@
 ---
-title: Publish Web Forms
+title: Collect Metadata via Web Forms
 layout: page
 nav_order: 5
 parent: Building CEDAR Templates for Community Standards
 ---
 
-# Publish Web Forms
+# Collect Metadata via Web Forms
 
 CEDAR is a platform for designing metadata templates and collecting metadata records over the Web. One of its key features is the ability to acquire the records from users with CEDAR accounts by sharing the templates as Web forms. Similar to [Google Forms](https://workspace.google.com/products/forms/), this functionality allows template designers to generate a fillable form link that others can use to input metadata values.
 

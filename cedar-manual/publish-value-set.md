@@ -1,11 +1,11 @@
 ---
-title: Publish Value Set
+title: Share Value Set on BioPortal
 layout: page
 nav_order: 4
 parent: Building CEDAR Templates for Community Standards
 ---
 
-# Publish Value Set to BioPortal
+# Share Value Set on BioPortal
 
 To make your **value set** accessible to **CEDAR**, follow these steps to publish it on **BioPortal**.  
 
@@ -35,19 +35,19 @@ To make your **value set** accessible to **CEDAR**, follow these steps to publis
 
 ### Step 3: Create a new Submission
 
-Fill in the required details to create a new submission:
+* Fill in the required details to create a new submission:
   <img width="1000" alt="Create a new submission form" style="margin:10px 0 0 0;" src="../img/new-submission-form.png" />
 
-- **Description:** → Write a meaningful description about the value set.
-- **Format:** → Select **"SKOS"** for the format.
-- **Version:** → Enter a version number (e.g., **"1.0.0"**).
-- **Language:** → Select **"English"** as the language, or specify another language.
-- **Status:** → Select **"alpha"** or **"beta"** for preview versions, or **"production"** for public use.
-- **Release date:** → Make sure to select today's date.
-- **Location:** → Choose **"Upload local file"** option and select your SKOS file.
-- **Contact:** → Provide the name and email of the responsible person.
-- Optionally, add **Homepage URL**, **Documentation URL**, or **Publications DOI**.
-- Click the **"Add submission"** button to finish.
+    - **Description:** → Write a meaningful description about the value set.
+    - **Format:** → Select **"SKOS"** for the format.
+    - **Version:** → Enter a version number (e.g., **"1.0.0"**).
+    - **Language:** → Select **"English"** as the language, or specify another language.
+    - **Status:** → Select **"alpha"** or **"beta"** for preview versions, or **"production"** for public use.
+    - **Release date:** → Make sure to select today's date.
+    - **Location:** → Choose **"Upload local file"** option and select your SKOS file.
+    - **Contact:** → Provide the name and email of the responsible person.
+    - Optionally, add **Homepage URL**, **Documentation URL**, or **Publications DOI**.
+    - Click the **"Add submission"** button to finish.
 
 ## Subsequent Submission
 
